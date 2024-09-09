@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mopsos AI</title>
+        <!-- Inclusion du fichier css pour le style du jeu -->
+        <link rel="stylesheet" href="style/style.css">
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css">
+        <style>
+        body{
+            font-family: "Computer Modern Serif", serif;
+            }
+        </style>
+
+        <!-- Inclusion des 3 scripts nécessaires pour faire fonctionner le jeu -->
+        <!-- Attention, l'ordre des fichiers js est important.  -->
+        <script src="script.js" defer></script>
+        <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
+    </head>
+
+    <body>
+
+        <div id="logo-main" class="clickable" onclick="scrollToSection('header')">
+            <img src="logo.svg" alt="logo">
+        </div>
+        <!-- HEADER -->
+        <header id="header">
+
+            <div id="ez">
+                
+            </div>
+
+
+                <div>
+                    <div class="menu">
+                        <p  class="clickable" onclick="scrollToSection('dashboard-scroll')">Dashboard</p>
+                        <p  class="clickable" onclick="scrollToSection('api-scroll')">API</p>
+                        <p  class="clickable" onclick="scrollToSection('project-scroll')">Project</p>
+                        <p  class="clickable" onclick="scrollToSection('roadmap-scroll')">Roadmap</p>
+                        <p  class="clickable" onclick="scrollToSection('team-scroll')">Team</p>
+                    </div>
+    
+                    <button class="button-30" role="button">Connect Wallet</button>    
+                </div>
+           
+        </header>
+
+        <!-- MAIN -->
+        <main>
+
+            <div id="ez-2"></div>
+
+            <div id="presentation">
+
+                <h1 class="element">Mopsos AI: Most advanced crypto social data</h1>
+
+                <button class="button-30 element2" role="button" onclick="scrollToSection('dashboard-scroll')">Explore Data!</button>
+
+            </div>
+
+            <div id="presentation-2">
+
+            </div>
+
+            <div id="discover">
+            </div>
+
+            <div id="dashboard-scroll"></div>
+
+            <h1 class="element3 hidden">Dashboard</h1>
+            <div id="dashboard">
+
+                <a href="ocean.html" class="dashbox">
+                    <img src="oceanlogo.svg" alt="oceanlogo">
+                </a>
+        
+                <a href="https://example.com" class="dashbox">
+                    <img src="dimitralogo.svg" alt="dimitralogo">
+                </a>
+        
+                <a href="https://example.com" class="dashbox">
+                    <img src="oasislogo.svg" alt="oasislogo">
+                </a>
+        
+                <a href="https://twitter.com/messages/compose?recipient_id=1695797726837964800&text=Add+my+fucking+crypto+project+data+NOWWWWW" class="dashbox">
+                    <img src="addcross.svg" alt="addcross">
+                    <p>ADD YOURS</p>
+                </a>
+
+            </div>
+
+
+            <div id="api-scroll"></div>
+            <h1 class="hidden element3">API</h1>
+            <div id="api">
+                
+                <div>
+                    <p>
+                        Unlock valuable insights from the crypto market with our advanced Crypto Social Data API.
+                        By aggregating real-time social metrics across numerous crypto projects,
+                        our API offers a comprehensive view of market sentiment and engagement.
+                        Whether you're an individual investor, data analyst, or a company seeking to enhance your decision-making,
+                        our API provides reliable, structured data in JSON format, ready to be integrated into your workflows.
+                        Test our API today and discover how social data can power your crypto strategies. Click below to get started!
+                    </p>
+
+                        <a href="https://mopsos-ai-api.onrender.com/docs">
+                            <button class="button-30" role="button">API</button>
+                        </a>
+                      
+                </div>
+
+
+                <img src="api.svg" alt="api-logo">
+
+
+
+            </div>
+
+            <div class="parent">
+                <div class="child">Item 1</div>
+                <div class="child">Item 2</div>
+                <div class="child">Item 3</div>
+                <!-- Plus d'éléments si nécessaire -->
+              </div>
+
+            <div id="project-scroll"></div>
+            <h1 class="element3 hidden">What is Mopsos AI?</h1>
+            <p>Mopsos AI is the most advanced tool to provide historical and real-time social data related to crypto projects.</p>
+            <div id="what">
+
+
+                <div id="test24">
+                    <h4>For Crypto Projects:</h4>
+                    <h4>For Investors and Hedge Funds:</h4>
+                </div>
+
+               <div>
+                <p>
+                    - Build trust with partners and investors by showcasing your community's engagement and growth. <br>
+                    - Exploit your social data insights to optimize your advertising campaigns and communication strategies. <br>
+                </p>
+
+                <p> 
+                    - Assess projects' credibility through their development involvement. - Build trust with partners and investors by showcasing your community's engagement and growth.<br>
+                    - Make informed investment decisions based on community activity and growth. <br>
+                    - Train your own AI model to developp your custom strategy. <br>
+                    - Leverage our AI models to determine futur projects' returns. (in development)
+                </p>
+
+               </div>
+
+            </div>
+
+            <div id="roadmap-scroll"></div>
+            <h1 class="element3 hidden">Roadmap</h1>
+            <div id="roadmap">
+                <div class="slider">
+                    <div class="slide">
+                      <div class="slide-container">
+                        <h2 class="slide-Title">Q1 - 2021</h2>
+                        <div class="slide-description">
+                          <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                            <li>Et tincidunt lectus porta sit amet. </li>
+                            <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-container">
+                        <h2 class="slide-Title">Q2 - 2021</h2>
+                        <div class="slide-description">
+                          <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                            <li>Et tincidunt lectus porta sit amet. </li>
+                            <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-container">
+                        <h2 class="slide-Title">Q3 - 2021</h2>
+                        <div class="slide-description">
+                          <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                            <li>Et tincidunt lectus porta sit amet. </li>
+                            <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slide active">
+                      <div class="slide-container">
+                        <h2 class="slide-Title">Q4 - 2021</h2>
+                        <div class="slide-description">
+                          <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                            <li>Et tincidunt lectus porta sit amet. </li>
+                            <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-container">
+                        <h2 class="slide-Title">Q1 - 2022</h2>
+                        <div class="slide-description">
+                          <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                            <li>Et tincidunt lectus porta sit amet. </li>
+                            <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-container">
+                        <h2 class="slide-Title">Q2 - 2022</h2>
+                        <div class="slide-description">
+                          <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                            <li>Et tincidunt lectus porta sit amet. </li>
+                            <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-container">
+                        <h2 class="slide-Title">Q3 - 2022</h2>
+                        <div class="slide-description">
+                          <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                            <li>Et tincidunt lectus porta sit amet. </li>
+                            <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div id="space">
+
+            </div>
+
+
+
+            <h1 id="team-scroll" class="element3 hidden">Our Team</h1>
+            <div id="team">
+                <div class="image-container">
+                    <img src="pp.jpg" alt="Image de fond">
+                    <div>
+                        Tom Pollet <br>
+                        Founder
+                    </div>
+                </div>
+
+
+
+            </div>
+   
+
+ 
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+
+            <div id="community">
+                <div>
+                    <h5>Community</h5>
+                </div>
+                <div>
+                    <a href="https://x.com/mopsos_ai"><img class="sociallogo" src="twitterlogo.svg" alt="twitterlogo"></a>
+                    <a href="https://discord.gg/aGttqFNN"><img class="sociallogo" src="discordlogo.svg" alt="discordlogo"></a>
+                    <a href="https://github.com/Demoniarc"><img class="sociallogo" src="githublogo.svg" alt="githublogo"></a>
+                </div>
+            </div>
+
+            <p id="copyright">© 2024 Mopsos AI — All Rights Reserved</p>
+        </footer>
+    </body>
+</html>
