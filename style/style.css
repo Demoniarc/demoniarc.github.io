@@ -447,6 +447,7 @@ p{
     padding:0;
   }
   .slide-container ul li{
+    text-align: center; /* Centre le texte horizontalement */
     padding:0;
   }
   
