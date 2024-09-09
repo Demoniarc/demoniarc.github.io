@@ -135,6 +135,7 @@ p{
     flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
     gap: 10px; /* Espacement entre les éléments */
     padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
 
 }
 
@@ -426,6 +427,7 @@ p{
       border-radius:20px;
       color:black;
       backdrop-filter:blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       border: double 1px transparent;
       border-radius: 20px;
       background-origin: border-box;
