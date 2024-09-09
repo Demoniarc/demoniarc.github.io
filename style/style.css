@@ -426,7 +426,7 @@ p{
       transition: .4s all;
       border-radius:20px;
       color:black;
-      background-color: rgba(255, 255, 255, 0); /* Fallback */
+      background-color: rgba(255, 255, 255, 0.5); /* Fallback */
       backdrop-filter:blur(10px);
       -webkit-backdrop-filter: blur(10px);
       border: double 1px transparent;
