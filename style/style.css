@@ -4,13 +4,6 @@ body{
     overflow-x: hidden;
 }
 
-header{
-    padding-top: 5px;
-    padding-right: 10px;
-    display: flex;
-    overflow: hidden;
-}
-
 .parent {
     display: flex;
     flex-wrap: wrap;
@@ -25,6 +18,15 @@ header{
     align-items: center;
     justify-content: center;
   }
+
+
+header{
+    padding-top: 5px;
+    padding-right: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
 
 header p{
     border: 1px 1px 1px 1px solid black;
@@ -43,7 +45,7 @@ header div{
 
 .menu {
     display: grid;
-    grid-template-columns: repeat(5, auto); /* 5 colonnes pour les 5 éléments */
+    grid-template-columns: repeat(6, auto); /* 5 colonnes pour les 5 éléments */
     column-gap: 10px; /* Espace entre chaque élément */
     align-items: center; /* Aligner les éléments verticalement au centre */
 }
@@ -58,6 +60,23 @@ header div{
 .menu p:last-child {
     border-right: none; /* Retirer le trait sur le dernier élément */
 }
+
+@media (max-width: 768px) {
+  .menu {
+      display: flex; /* On remplace grid par flex pour un meilleur contrôle */
+      justify-content: flex-end; /* Aligne tout à droite */
+      width: 100%;
+  }
+
+  .menu p {
+      display: none; /* Cache les éléments p */
+  }
+
+  .menu button {
+      margin-left: auto; /* Pousse le bouton vers la droite */
+  }
+}
+
 
 .clickable {
     cursor: pointer; /* Change le curseur en main */
