@@ -4,7 +4,7 @@ body{
   padding:0;
   width:100vw;
   height:100vh;
-  overflow:auto;
+  overflow-x:hidden;
 }
 
 html{
@@ -235,7 +235,7 @@ p{
   margin:0;
   padding:0;
   width:100vw;
-  height:100vh;
+  height:500px;
   overflow:hidden;
 }
 
@@ -330,18 +330,6 @@ p{
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
   }
-
-@media (max-width: 768px) {
-    .dashbox {
-        flex: 1 1 calc(50% - 10px); /* Deux boîtes par ligne sur les écrans plus petits */
-    }
-}
-
-@media (max-width: 480px) {
-    .dashbox {
-        flex: 1 1 100%; /* Une boîte par ligne sur les très petits écrans */
-    }
-}
 
 .image-container {
     position: relative;
@@ -467,8 +455,7 @@ p{
 
     #space{
       width: 100%;
-      height: 150px;
-
+      height: 0px;
     }
 
     .table-container {
@@ -480,17 +467,19 @@ p{
   }
   
   table {
-      width: 80%;
-      border-collapse: collapse;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      margin: auto; /* Centrage horizontal */
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    table-layout: fixed;
   }
   
   th, td {
       padding: 12px;
       text-align: left;
       border: 1px solid black; /* Bordure noire pour les cellules */
+      font-size: 1vw;
   }
   
   th {
@@ -502,6 +491,8 @@ p{
   tr:hover {
       background-color: #f1f1f1;
   }
+
+
     
 
     
