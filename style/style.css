@@ -27,7 +27,7 @@ header{
     padding-top: 5px;
     padding-right: 10px;
     display: flex;
-    overflow: hidden;
+    overflow: visible;
 }
 
 
@@ -184,7 +184,6 @@ p{
     align-items: center; /* Centre verticalement */
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px; /* Ajoutez du padding pour éviter les débordements */
     box-sizing: border-box; /* Assurez-vous que le padding est inclus dans les dimensions */
 }
 
@@ -193,9 +192,11 @@ p{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 400px;
+    height: auto;
     flex: 1 1 300px; /* Permet de réduire la largeur des éléments enfants à 300px si nécessaire */
-    margin: 50px; /* Ajoutez de l'espace autour des éléments enfants */
+    margin-left: 50px; /* Ajoutez de l'espace autour des éléments enfants */
+    margin-right: 50px; /* Ajoutez de l'espace autour des éléments enfants */
+    margin-bottom: 50px;
     box-sizing: border-box; /* Assurez-vous que le padding est inclus dans les dimensions */
     overflow: hidden; /* Évite les débordements de texte */
 }
@@ -213,7 +214,7 @@ p{
     justify-content: center; /* Centre horizontalement */
     align-items: center; /* Centre verticalement */
     flex-direction: column;
-    padding: 0px 0px 0px 0px;
+    padding: 10px 50px 10px 50px;
 }
 
 #what div{

@@ -106,5 +106,17 @@ document.addEventListener("DOMContentLoaded", () => {
     var slider = Slider.init();
   })
 
+window.addEventListener('load', () => {
+  document.html.style.overflow = 'hidden';
+  window.scrollTo(0, 0);
+});
+
+window.addEventListener('popstate', () => {
+  window.location.reload();
+});
+
+window.history.pushState(null, null, window.location.href);
+
+
 
 
