@@ -1,10 +1,13 @@
 body{
-    background-color: white;
-    margin: 0px 0px 0px 0px;
+  background:white;
+  margin:0;
+  padding:0;
+  width:100vw;
+  height:100vh;
+  overflow:auto;
 }
 
 html{
-  overflow-x: hidden;
 }
 
 .parent {
@@ -228,9 +231,12 @@ p{
 }
 
 #roadmap{
-    display: flex;
-    justify-content: center; /* Centre horizontalement */
-    align-items: center; /* Centre verticalement */
+  background:white;
+  margin:0;
+  padding:0;
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
 }
 
 #team{
