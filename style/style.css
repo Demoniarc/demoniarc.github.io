@@ -188,6 +188,7 @@ p{
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box; /* Assurez-vous que le padding est inclus dans les dimensions */
+    overflow: hidden;
 }
 
 #api div {
@@ -201,7 +202,7 @@ p{
     margin-right: 50px; /* Ajoutez de l'espace autour des éléments enfants */
     margin-bottom: 50px;
     box-sizing: border-box; /* Assurez-vous que le padding est inclus dans les dimensions */
-    overflow: hidden; /* Évite les débordements de texte */
+    overflow: visible; /* Évite les débordements de texte */
 }
 
 #api img {
