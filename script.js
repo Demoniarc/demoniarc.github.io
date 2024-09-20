@@ -117,6 +117,8 @@ window.addEventListener('popstate', () => {
 
 window.history.pushState(null, null, window.location.href);
 
-
+function redirectToForm() {
+  window.open("https://docs.google.com/forms/d/e/1FAIpQLSePW42Lgsj0q2cHbGDUzY5p-EjD8frRu-i2zRsw9hVWOlpwZg/viewform", "_blank");
+}
 
 
