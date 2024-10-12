@@ -493,10 +493,26 @@ p{
       background-color: #f1f1f1;
   }
 
+#test24 {
+    display: flex;
+    justify-content: space-between;
+}
 
-    
+.left {
+    width: 45%;
+}
 
-    
+.right {
+    width: 45%;
+}
+
+.test{
+  text-align: center;
+}
+
+.description{
+  text-align: center;
+}
 
 
 
