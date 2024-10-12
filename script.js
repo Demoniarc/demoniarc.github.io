@@ -121,4 +121,10 @@ function redirectToForm() {
   window.open("https://docs.google.com/forms/d/e/1FAIpQLSePW42Lgsj0q2cHbGDUzY5p-EjD8frRu-i2zRsw9hVWOlpwZg/viewform", "_blank");
 }
 
+const element = document.querySelector('.element2');
+
+element.addEventListener('animationend', () => {
+    element.classList.remove('element2'); // Supprime la classe element2 une fois l'animation terminée
+});
+
 
